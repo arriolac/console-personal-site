@@ -4,3 +4,41 @@ body {
     font-family: monospace;
     color: #dbdbdb;
 }
+
+
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 99&#37;;
+}
+
+textarea#input-area { /* explorer doesn't support [att=val] selector :( */
+    left: -1000px;
+    position: absolute;
+}
+
+.cursor {
+    font-size: 12px;
+    background-color: red;
+    color: red;
+    position: relative;
+    opacity: 0.5;
+}
+
+#console {
+    margin: 8px;
+    cursor: text;
+    height: 500px;
+}
+
+#writer {
+    font-family: cursor, courier;
+    font-weight: bold;
+}
+
+#output-area {
+    margin: 5px;
+}
