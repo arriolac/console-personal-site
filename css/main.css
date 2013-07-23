@@ -4,3 +4,7 @@ body {
     font-family: monospace;
     color: #dbdbdb;
 }
+
+#console_in textarea {
+    vertical-align:middle;
+}
