@@ -14,6 +14,13 @@ body, .console {
 }
 
 .console:focus {
-  /*outline-width: 0;*/
   outline-style: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#console_out li {
+  list-style-type: none;
 }

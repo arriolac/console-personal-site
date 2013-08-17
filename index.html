@@ -3,6 +3,9 @@
   <head>
      <title>Chris Arriola</title>
     <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="./scripts.js"></script>
+
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
@@ -24,9 +27,10 @@
 
     <!-- This is the input area -->
     <div id="console_in">
-      <form>
+      <form id="console">
         <span class="root">[guest@chrisarriola.me]$ </span>
-        <input class="console" type="text" autofocus></input>
+        <input id="input" class="console" type="text" autofocus></input>
+        <input class="hidden" type="submit"/>
       </form>
     </div>
 
