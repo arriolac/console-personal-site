@@ -1,7 +1,7 @@
 console-personal-site
 =====================
 
-My personal website inspired by the Unix command line interface.
+My personal website inspired by the Unix command line.
 
 ### Commands:
 * `help` => Shows a list of all the possible commands
