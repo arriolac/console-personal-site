@@ -16,17 +16,19 @@ $(document).ready(function() {
 });
 
 var command = function(input){
-  var commands = {
-    "help":" </br> -resume</br> -project", 
-    "resume": "</br> unemployed",
-    "project": "</br> lots of stuff",
-    "clear": function(){ console.log('working') }
-  };
-
   var $out = $('#console_out');
   var $input = $('#input');
-  var $clear = $input.val('')
-  console.log(commands[input]);
+  var $clear = $input.val('');
+
+  var commands = {
+    "help": "</br> -resume </br> -project </br> -blog </br> -contact </br> -links </br> -clear", 
+    "resume": "</br> unemployed",
+    "project": "</br> lots of stuff",
+    "blog": "</br><a href=#>Blog<a>",
+    "contact": "</br><a href='mailto:arriolac279@gmail.com'>-email</a>",
+    "links": "</br><a href='http://www.github.com/arriolac'>GitHub</a> </br><a href=#>Blog</a> </br><a href=#>Stuff</a>",
+    "clear": function(){ $out.empty(); }
+  };
 
   if($out.children().length === 0 && !commands[input]){
     $out.append('<li> [guest@chrisarriola.me]$ </br>type help for list of navigation commands</li>');
