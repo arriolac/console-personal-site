@@ -1,4 +1,11 @@
 console-personal-site
 =====================
 
-My personal site, command line style.
+My personal website inspired by the Unix command line interface.
+
+### Commands:
+* `help` => Shows a list of all the possible commands
+* `blog` => Shows link to my blog
+* `clear` => Clears the console
+* `cv` => Shows my resume
+* `whoami` => About me
